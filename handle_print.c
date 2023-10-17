@@ -12,7 +12,6 @@
  * @list: arguments list
  * @fmt: the argument string which to formatted print
  * Return: 2 or 1;
- *
  */
 
 int handle_print(const char *fmt, int *ind, va_list list,
