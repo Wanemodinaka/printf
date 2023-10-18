@@ -23,7 +23,6 @@
  * by Givens and Gabriel
  * @fn: the associated function
  * @fmt: the format
- *
  */
 
 struct fmt
@@ -34,10 +33,8 @@ int (*fn)(va_list, char[], int, int, int, int);
 
 /**
  * typedef struct fmt fmt_t - struct op
- *
  *@fm_t: associated function
  *@fmt: format
- *
  */
 
 typedef struct fmt fmt_t;

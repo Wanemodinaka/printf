@@ -6,7 +6,6 @@ void print_buffer(char buffer[], int *buff_ind);
  * @format: format
  * by Givens and Gabriel
  * Return: printed chars
- *
  */
 int _printf(const char *format, ...)
 {
@@ -58,7 +57,6 @@ return (printed_chars);
  * print_buffer - it clone the contents of the buffer if it exist
  * @buff_ind: which to add next char to index, represent the length
  * @buffer: chars of array
- *
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
