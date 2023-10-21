@@ -48,8 +48,8 @@ int handle_print(const char *fmt, int *i,
 /* Funtions to print chars and strings */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_string(va_list types, char buffer[],
-	int flags, int width, int precision, int size);
+int print_string(char buffer[], va_list list, int precision, 
+		int size, int width, int flags);
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
